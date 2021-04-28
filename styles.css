@@ -1,0 +1,705 @@
+* {
+   
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  
+    
+}
+.flex{
+  display: flex;
+  
+}
+
+
+
+main {max-width: 100rem;
+  width: 100%;  
+  margin: 0 auto; 
+  background-color: #ffffff;
+  } 
+
+section{
+  max-width: 100rem;  
+  padding: 0 7.9rem 0 7.9rem;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+  color: #000000; 
+  margin: 0;
+}
+.greyTitle{
+  color: #86878B;   
+  line-height: 1.36rem;
+}
+.black{
+  color: #212121;
+}
+.white{
+  color: #ffffff;
+}
+h3{
+  font-weight: 700;
+  font-size: 1.43rem;
+  font-style: normal;
+  line-height: 1.9rem;
+  
+}
+h2{font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  
+  margin: 0%;
+
+}
+                                                          /* хедер */                                         
+header{
+    background-color:  #000000;    
+    padding: 1.4rem 0;
+    width: 100%;  
+    position: relative;
+    height: 5rem;      
+    margin: 0 auto;
+    max-width: 100rem; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;    
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.header{  
+  width: 50%;
+ }
+ .headerIcon{
+   padding: 0 7.9rem;
+ }
+
+ .nav{
+   display: flex;
+   justify-content: space-around;
+   padding: 0 7.7rem;
+   flex-wrap: wrap;
+ }
+ 
+                                                      /* section AXIT */
+section.AXIT{
+  position: relative;
+  padding: 0;
+  
+  
+}
+.blockAxit1{
+  justify-content: space-between;
+  background-image: url(./PICTERS//background-1\ 1.png);
+  width: 84.3rem;
+  height: 27.2rem;
+  top: 0rem;
+  left: 0rem;   
+  padding: 7.9rem; 
+  color: #ffffff;
+}
+.blockAxit1:after {
+  content:   ''; 
+  background-color:  rgba(0, 0, 0, 0.65);
+  width: 100rem;
+  height: 42.9rem;
+  top: 0rem;
+  left: 0rem;      
+  position: absolute;
+}
+
+.axitImg{
+  top: 7.9rem;
+  left: 8rem;
+  
+  position: absolute;
+}
+.axitTitle{
+  width: 38.9rem;
+  height: 7.1rem;
+  top: 15.1rem;
+  left: 8rem;
+  margin: 0;
+  position: absolute;
+}
+.axitTitle::after{
+  content:   ''; 
+  background-color: #ffffff; 
+  width: 4.6rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 9.4rem;  
+}
+.axitP{
+  position: absolute;
+  left: 8rem;
+  top: 27.2rem;
+  height: 2.7rem;
+  width: 20.1rem;
+  color:rgb(255, 255, 255, 0.8);
+  }
+
+.titleP{
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.35rem;  
+  
+  margin: 0;
+}
+button.butDln{
+  width: 9.6rem;
+  height: 3rem;
+  left: 8rem;
+  position: absolute;
+  top: 32.7rem;
+  color: #ffffff;
+  border: .1rem solid #FFFFFF;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.1rem;
+  font-weight: 600;
+
+}
+.blockAxit2{
+  
+  flex-direction: column;
+  width: 26.4rem;
+  height: 26.4rem;
+  background-color: #FFFFFF;
+  border-radius: 0.6rem;    
+  position: relative;     
+  letter-spacing: 0.1rem;/*Расстояние между буквами */
+  
+}
+.nameForm {
+    width: 26.4rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 1.42rem;
+    line-height: 1.9rem;
+    text-align: center;
+   color: black;
+}
+.form_input {
+  height: 2.2rem;
+  border: none;
+  border-bottom: 0.1rem solid gray;
+  margin-bottom: 1.4rem;
+  margin-left: 4.2rem;
+  width: 18rem;
+}
+.start{
+  text-align: center;
+  border: 0.1rem solid rgba(236, 121, 121, 1);
+  font-size: 1.1rem;
+  background-color: rgba(236, 121, 121, 1);
+  color: white;
+  border-radius: 0 0 .6rem 0.6rem;
+  margin-top: 5.2rem;
+  padding: 1.2rem 0;
+  margin-bottom: 0;
+}
+.upP{
+  z-index: 1;
+}
+.social{
+  background-color: #F8EFEF;
+  width: 84.3rem;
+  height: 6.14rem;
+  padding: 1rem 7.9rem;
+  position: relative;
+}
+.sutitle3{
+  margin-bottom: 1rem;
+  margin-top: 0;
+
+}
+.socialTitle{
+  width: 26.1rem;
+}
+.socialIcons{
+  position: absolute;
+  top: 2.4rem;
+  left: 43.2rem;
+}
+
+
+                                                  /* section tabs */
+
+section.tabs{
+  justify-content: space-between;
+  height: 26.8rem;
+  padding-top: 7.14rem;
+  padding-bottom: 8.9rem;
+  position: relative;
+}
+div.tabs__tab{
+  width: auto;
+  height: auto;
+  margin-top: 1.1rem;
+}
+.tabs__tab__title{
+width: 5.5rem;
+height: 7.9rem;
+border-radius: .3rem;  
+font-weight: bold;
+font-size: 1.1rem;
+line-height: 1.4rem;
+display: flex;
+align-items: center;
+padding-left: 2.5rem;
+text-transform: uppercase;
+color: #FFFFFF;
+    
+  margin: 0.7rem 0;
+}
+.pink{
+  border: 0.1rem solid #EC7979;
+  background: #EC7979;
+}
+.black{
+  border: 0.1rem solid #333333;
+  background: #333333;
+
+}
+.tabs__textBlock__text__text{
+  text-transform: uppercase;
+}
+
+.tabs__textBlock{
+  position: absolute;
+  top: 1.9rem;
+  width: 40.9rem;
+  left: 24.4rem;
+  top: 7.9rem;
+ 
+}
+h3.tabs__textBlock__sutitle{
+  margin-top: 1.9rem;
+  margin-bottom: 4.1rem;
+}
+
+.tabs__textBlock__button{
+  position: absolute;
+  top: 23.6rem;
+  width: 9.6rem;
+  height: 3rem;
+  background: #EC7979;
+  border: 0.1rem solid #FFFFFF;
+  box-sizing: border-box;
+}
+.tabs__img{
+  width: 23.2rem;
+  height: 18.1rem;
+}
+
+                                                      
+                                                     /* Секция 1 */
+section.titleOne{
+  padding-top: 5.7rem;
+}
+.titleOne__titleBoss { 
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  text-align: center;
+  margin: 0%; 
+   
+}
+
+.titleOne__titleBoss:after {
+  content:   ''; 
+  background-color: #E72424; 
+  width: 4.6rem;
+  height: 0.14rem;
+  position: absolute;
+  top: 10.2rem;
+  transform: translate(-64%);
+  left: 50%;
+      
+  }
+  
+.subtitle{
+  margin-top: 4.1rem;  
+  margin-bottom: 0rem;
+  text-align: center;
+  }
+
+
+                                                  /* карточки */
+.tiles-wrapper{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 7.7rem;
+
+}
+.tile_container{
+  margin-top: 4.8rem;
+  width: 25rem;
+  height: 16.1rem; 
+   
+}
+.tile_image {
+  border: 0.1rem solid #E72424;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: auto;
+}  
+
+.icon{
+  margin-top: 30%;
+}
+.tile_description{
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-style: normal;
+  margin-top: 2.1rem;
+}
+
+.signature{
+  margin-top: 1.1rem;  
+  text-align: center;
+  line-height: 1.4rem;
+}
+                                  /* section PRICE */
+.price{
+  background-color: #F5F5F5;
+  padding: 5.7rem 7.9rem 4.1rem 7.9rem ;
+  height: 47.4rem;
+}
+ .price__titleBoss{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  text-align: center;
+  margin: 0%; 
+}
+
+.price__titleBoss:after {
+  content:   ''; 
+  background-color: #E72424; 
+  width: 4.6rem;
+  height: .2rem;
+  position: absolute;
+  top: 11.1rem;
+  transform: translate(-64%);
+  left: 50%;
+}
+
+p.price__title{
+  margin-top: 5rem;
+  text-align: center;
+}
+.price__card{
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+  top: 4.4rem;
+}
+.price__card__prices{
+  height: 33.4rem;
+  text-align: center;
+  margin: 0;
+}
+.price__card__title{  
+  background-color: #333333;
+  width: 24.3rem;
+  height: 2.6rem;
+  margin-right: 0;
+  border: 0.1rem solid #F5F5F5;
+  color: #ffffff;
+  padding-top: 1rem; 
+  margin: 0;
+}
+.price__card__prices__namber{
+  background-color: #333333;
+  width: 24.3rem;
+  height: 5.1rem;
+  margin: 0;
+  border: 0.1rem solid #F5F5F5;
+  color: #ffffff;
+  padding-top: 2rem; 
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  margin: 0;
+}
+.price__card__prices__text{
+  background-color: #333333;
+  width: 24.3rem;
+  height: 2.6rem;
+  margin: 0;
+  border: 0.1r solid #F5F5F5;
+  color: #ffffff;
+  padding-top: 1rem; 
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin: 0;
+}
+.price__card__prices__input{
+  background-color: #FFFFFF;
+  width: 24.3rem;
+  height: 1.9rem;
+  margin: 0;
+  border: 0.1rem solid #F5F5F5;
+  color: #ffffff;
+  padding: 1rem 0 0; 
+  
+}
+input.price__card__prices__input__input{
+  border: 0.1rem solid white;
+  text-align: center;
+
+}
+div.center{
+  position: absolute;
+  top: -1rem;
+  left: 30rem;
+}
+
+                        /* --fedback-- */
+section.feedback{
+  padding: 5.7rem 10rem;
+}
+h2.feedback__titleBoss{
+  text-align: center;
+
+}
+h2.feedback__titleBoss:after {
+  content:   ''; 
+  background-color: #E72424; 
+  width: 4.6rem;
+  height: .2rem;
+  position: absolute;
+  top: 11.1rem;
+  transform: translate(-64%);
+  left: 50%;
+}
+
+.feedback__text{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+.feedback__icones{ 
+  padding-top: 4.8rem;
+  justify-content: space-between;
+}
+.feedback__icones__card__text{
+  height: 6.4rem;
+  width: 21.2rem;
+  background-color: #E2E2E2;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.feedback__icones__card__manager{
+  justify-content: space-around;
+}
+
+   
+                          /* <section class="titleThree"> */
+.titleThree{
+  position: relative;
+  background-image: url(PICTERS/town.png);
+  
+  height: 23.3rem;
+    
+  padding: 0;   
+ 
+}
+  
+.up{
+  position: absolute;
+  color: #ffffff;
+  z-index: 1;
+}
+h2.titleBoss{
+  position: absolute;
+  left: 50%;
+  top: 4.1rem;
+  
+  transform: translate(-50%);
+}
+h2.titleBoss:after {
+  content:   ''; 
+  background-color:  #ffffff; 
+  width: 4.6rem;
+  height: .2rem;
+  margin-top: 6.3rem;
+  margin-left: -17.35rem;      
+  position: absolute;
+}
+.titleUp{
+  top: 12.6rem;
+  left: 25.4rem;
+
+  font-style: normal;
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  text-align: center;
+  vertical-align: top;  
+}
+button.downloadButton{
+  width: 9.6rem;
+  height: 3rem;
+  top: 17.9rem;
+  left: 45.1rem;
+  border: .1rem solid #FFFFFF;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.titleThree:after {
+  content:   ''; 
+  background-color:  rgba(0, 0, 0, 0.65);
+  width: 100rem;
+ 
+  height: 23.3rem;
+  top: 0rem;
+  left: 0rem;      
+  position: absolute;
+  
+}
+                          /* section CONTACT */
+
+section.contact{
+height: 50rem;
+position: relative;
+padding: 5.7rem 7.8rem 3.1rem;
+}
+
+
+.contact__titleBoss{
+  position: absolute;
+  left: 50%;
+    
+  transform: translate(-50%);
+}
+.contact__titleBoss:after {
+  content:   ''; 
+  background-color:  #E72424; 
+  width: 4.6rem;
+  height: 0.14rem;
+  left: 50%;
+  top: 5.7rem;
+  transform: translate(-50%);
+  position: absolute;
+}
+.contact__text{
+  position: absolute;
+  left: 50%;
+  top: 13.7rem;  
+  transform: translate(-50%);
+  margin: 0;
+}
+.contact__input{
+  justify-content: space-between;
+}
+.contact__input__form{
+  position: absolute;
+  top: 18.3rem;
+  height: 21rem;
+  width: 34.2rem;
+  
+}
+.contact__input__form__input{
+  width: 34.2rem;
+  height: 6.9rem;
+  border: none;
+  border-bottom: .2rem solid #BDBDBD;  
+
+}
+.contact__input__message{
+  
+  
+  border-bottom: .2rem solid #BDBDBD;  
+  position: absolute;
+  top: 19rem;
+  height: 21rem;
+  width: 34.2rem;
+  left: 57.9rem;
+}
+input.contact__input__message__input{
+  border: none;
+  margin-top: 1.5rem;
+  }
+  input::placeholder{
+    color: #86878B;
+  }
+  button.contact__button{   
+    position: absolute; 
+      width: 9.6rem;
+      height: 3rem;
+      top: 50rem;
+      left: 45.1rem;
+      background: #EC7979;
+      border: .1rem solid #FFFFFF;
+      box-sizing : border-box;
+      font-size: 1.1rem;
+      font-weight: 600;
+     }
+  
+ 
+
+
+
+
+
+                                /* FOOTER */
+footer{
+  background-color: #000000;
+  position: relative;
+  height: 7.21rem;
+  top: auto;    
+  width: 100%;  
+  margin: 0 auto;
+  max-width: 100rem;
+}
+.futerPanel{
+  position: absolute;
+  width: 22.6rem;
+  height: 1.6rem;
+  left: 38.6rem;
+  top: 2.14rem;
+}
+
+.footerText{
+  position: absolute;
+  font-style: normal;
+  color: rgb(255, 255, 255, 0.5);
+  font-size: .9rem;
+  line-height: 1.14rem;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 5rem;
+  margin-left: 45.4rem;
+  
+}
