@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);">
   <link rel="stylesheet" href="styles.css">
   <title>Home Work CSS</title>
 </head>
@@ -27,8 +28,8 @@
   </header>
   <main> 
                                               <!-- SECTION AXIT -->
-      <section class="AXIT" >
-          <div class="blockAxit1 flex"><a name="feautures"></a>
+
+      <section class="AXIT flex"><a name="feautures"></a>          
             <div class="blockAxit1__block">
               <div class="axitImg upP">
                   <img src="./PICTERS/AXIT.png" alt="Логотип">
@@ -52,18 +53,23 @@
                 
                 <p class="start upP"><a href="">Get Started</a></p><a name="feautures"></a>
             </div>
-          </div>        
-          <div class="social">
-            <div class="socialTitle">
-              <H3 class="sutitle3">Social Media</H3>            
-              <p class="greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean euismod bibendum laoreet.</p>
-            </div>
-            <img class="socialIcons" src="./PICTERS/social icons.png" alt="social icons">              
-          </div>
-            
+          </div> 
+      </section >
+                                                    <!-- section Social -->
+      
+      <section class="social flex">
+        <div class="socialTitle">
+          <H3 class="sutitle3">Social Media</H3>            
+          <p class="greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean euismod bibendum laoreet.</p>
+        </div>
+        <div class="socialIcons">
+          <img  src="./PICTERS/social icons.png" alt="social icons">
+        </div>
         
-      </section>
+      </section>         
+        
+      
                                                   <!-- TABS -->
 
       <section class="tabs flex">
@@ -72,20 +78,24 @@
           <div class="tabs__tab__title black">tab 1</div>
           <div class="tabs__tab__title black">tab 1</div>
         </div>
-        <div class="tabs__textBlock">
-          <h3 class="tabs__textBlock__sutitle">Tabs with soft transitioning effect.</h3>
-          <div class="tabs__textBlock__text">
-            <p class="tabs__textBlock__text__text greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-              penatibus et magnis dis parturient montes.</p>
-              
+        <div class="tabsBlock flex">
+          <div class="tabs__textBlock">
+            <h3 class="tabs__textBlock__sutitle">Tabs with soft transitioning effect.</h3>
+            <div class="tabs__textBlock__text">
               <p class="tabs__textBlock__text__text greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-              bibendum laoreet.</p>
-          </div>
-            <button class="tabs__textBlock__button"><a href="">Download</a></button>
-        </div> 
-        <img class="tabs__img" src="./PICTERS/image_right_u255@1X 1.png" alt="Town">
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                penatibus et magnis dis parturient montes.</p>
+                
+                <p class="tabs__textBlock__text__text greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet.</p>
+            </div>
+              <button class="tabs__textBlock__button"><a href="">Download</a></button>
+          </div> 
+          <img class="tabs__img" src="./PICTERS/image_right_u255@1X 1.png" alt="Town">
+
+        </div>
+        
       </section>
                               <!-- заголовок -->
       <section class="titleOne">
@@ -131,67 +141,53 @@
         <h2 class="price__titleBoss">PRICING OPTIONS</h2><a name="price"></a>
         <p class="price__title greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="price__card flex">
-            <div class="price__card__prices ">
-              <h3 class="price__card__title">Basic</h3>
-              <p class="price__card__prices__namber">$0</p>
-              <p class="price__card__prices__text">Free for life</p>
-              <div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
+          <div class="price__card__prices ">
+            <div class="price__card__prices__input">
+               <ul class="price__card__title">Basic</ul>
+               <li class="price__card__prices__namber">$0</li>
+               <li class="price__card__prices__text">Free for life</li>
+               <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+               <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+               <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+               <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+               <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+               <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
               </div>
+            </div> 
+            <div class="price__card__prices center ">
               <div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div>
-            </div>        
-            <div class="price__card__prices center">
-              <h3 class="price__card__title">Basic</h3>
-              <p class="price__card__prices__namber">$0</p>
-              <p class="price__card__prices__text">Free for life</p>
-              <div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div>
-              <div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div>
-            </div>                 
-            <div class="price__card__prices">
-              <h3 class="price__card__title">Basic</h3>
-              <p class="price__card__prices__namber">$0</p>
-              <p class="price__card__prices__text">Free for life</p>
-              <div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div>
-              <div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div><div class="price__card__prices__input">
-                <input class="price__card__prices__input__input greyTitle" type="text" placeholder="1 gb of space">
-              </div>
-            </div>        
-        </div>
-        
-        
+                 <ul class="price__card__title">Basic</ul>
+                 <li class="price__card__prices__namber">$0</li>
+                 <li class="price__card__prices__text">Free for life</li>
+                 <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                 <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                 <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                 <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                 <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                 <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                </div>
+              </div> 
+              <div class="price__card__prices ">
+                <div class="price__card__prices__input">
+                   <ul class="price__card__title">Basic</ul>
+                   <li class="price__card__prices__namber">$0</li>
+                   <li class="price__card__prices__text">Free for life</li>
+                   <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                   <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                   <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                   <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                   <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                   <li class="price__card__prices__input__input greyTitle">1 gb of space</li>
+                  </div>
+                </div>        
+            
+            
+
+
+
+        </div>       
       </section>
+      
 
                                           <!-- feedback-->
       <section class="feedback">
@@ -209,7 +205,7 @@
                 <img src="./PICTERS/avatar_2_u231@1X 2.png" alt="avatar">
                 <div class="feedback__icones__card__manager__text">
                   <h3 class="sutitle3">Jeremy H.</h3>
-                  <p class="greyTitle">Manager</p>
+                  <p class="manager greyTitle">Manager</p>
                 </div>            
             </div>
           </div>
@@ -223,7 +219,7 @@
                 <img src="./PICTERS/avatar_2_u231@1X 2.png" alt="avatar">
                 <div class="feedback__icones__card__manager__text">
                   <h3 class="sutitle3">Jeremy H.</h3>
-                  <p class="greyTitle">Manager</p>
+                  <p class="manager greyTitle">Manager</p>
                 </div>            
             </div>
           </div>
@@ -237,7 +233,7 @@
                 <img src="./PICTERS/avatar_2_u231@1X 2.png" alt="avatar">
                 <div class="feedback__icones__card__manager__text">
                   <h3 class="sutitle3">Jeremy H.</h3>
-                  <p class="greyTitle">Manager</p>
+                  <p class="manager greyTitle">Manager</p>
                 </div>            
             </div>
           </div>        
@@ -255,17 +251,23 @@
         <a name="contact"></a>
           <h2 class="contact__titleBoss">CONTACT US</h2>
           <p class="contact__text greyTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          
           <div class="contact__input flex">
-              <div class="contact__input__form">
-                  <input class="contact__input__form__input greyTitle" type="text" placeholder="Name">
-                  <input class="contact__input__form__input greyTitle" type="email" placeholder="Email">
-                  <input class="contact__input__form__input greyTitle" type="password" placeholder="Password">
+            <div class="contact__input__form">
+                <input class="contact__input__form__input greyTitle" type="text" placeholder="Name">
+                <input class="contact__input__form__input greyTitle" type="email" placeholder="Email">
+                <input class="contact__input__form__input greyTitle" type="password" placeholder="Password">
               </div>
-              <div class="contact__input__message">
-                <input class="contact__input__message__input greyTitle" type="text" placeholder="Message">
+              <div class="contact__input__messge">
+                <form class="message_form" action="">
+                  <p class="greyTitle">Message</p>
+                  <textarea class="message_textarea" type="text">
+                  </textarea>
+                </form>
               </div>
-              
           </div>
+              
+            
           <button class="contact__button"><a href="">Send Message</button></a>
 
 
@@ -275,7 +277,7 @@
                               <!-- футер -->
   <footer>
         <div class="futerPanel"><img src="picters/panel.png" width="317px" height="23px" alt="panel"></div>
-        <div class="footerText"><p>© 2015 Axure Themes</p></div>        
+        <div class="footerText greyTitle"><p>© 2015 Axure Themes</p></div>        
   </footer> 
 </body>
 </html>

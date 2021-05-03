@@ -4,26 +4,25 @@
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
-  
-    
+  font-size: 1rem;  
+  box-sizing: border-box;    
 }
 .flex{
-  display: flex;
-  
+  display: flex;  
 }
 
 
 
-main {max-width: 100rem;
-  width: 100%;  
-  margin: 0 auto; 
-  background-color: #ffffff;
-  } 
-
+section, header, footer{
+  width: 1400px;
+  margin: auto;
+  
+  
+}
+main{
+  width: 100%;
+}
 section{
-  max-width: 100rem;  
-  padding: 0 7.9rem 0 7.9rem;
   position: relative;
 }
 
@@ -63,11 +62,11 @@ h2{font-family: Raleway;
 header{
     background-color:  #000000;    
     padding: 1.4rem 0;
-    width: 100%;  
+      
     position: relative;
-    height: 5rem;      
+        
     margin: 0 auto;
-    max-width: 100rem; 
+    
     display: flex; 
     justify-content: space-between;
     align-items: center;    
@@ -90,32 +89,29 @@ a{
  .nav{
    display: flex;
    justify-content: space-around;
-   padding: 0 7.7rem;
+   padding: 0 110px;
    flex-wrap: wrap;
  }
  
                                                       /* section AXIT */
 section.AXIT{
-  position: relative;
-  padding: 0;
-  
-  
-}
-.blockAxit1{
+  position: relative;  
   justify-content: space-between;
   background-image: url(./PICTERS//background-1\ 1.png);
-  width: 84.3rem;
-  height: 27.2rem;
-  top: 0rem;
-  left: 0rem;   
-  padding: 7.9rem; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+     
+  padding: 100px; 
   color: #ffffff;
 }
-.blockAxit1:after {
+
+  
+section.AXIT:after {
   content:   ''; 
   background-color:  rgba(0, 0, 0, 0.65);
-  width: 100rem;
-  height: 42.9rem;
+  width: 1400px;
+  height: 622.4px;
   top: 0rem;
   left: 0rem;      
   position: absolute;
@@ -215,26 +211,24 @@ button.butDln{
 .upP{
   z-index: 1;
 }
-.social{
+
+                                            /* section Social */
+
+section.social{
   background-color: #F8EFEF;
-  width: 84.3rem;
-  height: 6.14rem;
+  justify-content: space-between;
   padding: 1rem 7.9rem;
-  position: relative;
-}
+  align-items: center;
+  }
 .sutitle3{
   margin-bottom: 1rem;
   margin-top: 0;
 
 }
 .socialTitle{
-  width: 26.1rem;
+  width: 365px;
 }
-.socialIcons{
-  position: absolute;
-  top: 2.4rem;
-  left: 43.2rem;
-}
+
 
 
                                                   /* section tabs */
@@ -242,25 +236,26 @@ button.butDln{
 section.tabs{
   justify-content: space-between;
   height: 26.8rem;
-  padding-top: 7.14rem;
+  padding: 100px 100px 20px 100px;
   padding-bottom: 8.9rem;
   position: relative;
+  height: 600px;
 }
 div.tabs__tab{
   width: auto;
   height: auto;
-  margin-top: 1.1rem;
+  margin-top: 15px;
 }
 .tabs__tab__title{
-width: 5.5rem;
-height: 7.9rem;
+width: 112px;
+height: 110px;
 border-radius: .3rem;  
 font-weight: bold;
 font-size: 1.1rem;
 line-height: 1.4rem;
 display: flex;
 align-items: center;
-padding-left: 2.5rem;
+padding-left: 35px;
 text-transform: uppercase;
 color: #FFFFFF;
     
@@ -275,12 +270,15 @@ color: #FFFFFF;
   background: #333333;
 
 }
+div.tabsBlock{
+  justify-content: space-between;
+}
 .tabs__textBlock__text__text{
   text-transform: uppercase;
 }
 
 .tabs__textBlock{
-  position: absolute;
+  
   top: 1.9rem;
   width: 40.9rem;
   left: 24.4rem;
@@ -288,13 +286,13 @@ color: #FFFFFF;
  
 }
 h3.tabs__textBlock__sutitle{
-  margin-top: 1.9rem;
-  margin-bottom: 4.1rem;
+  margin-top: 26px;
+  margin-bottom: 58px;
 }
 
 .tabs__textBlock__button{
   position: absolute;
-  top: 23.6rem;
+  margin-top: 61px;
   width: 9.6rem;
   height: 3rem;
   background: #EC7979;
@@ -309,7 +307,7 @@ h3.tabs__textBlock__sutitle{
                                                       
                                                      /* Секция 1 */
 section.titleOne{
-  padding-top: 5.7rem;
+  padding: 80px 110px 110px;
 }
 .titleOne__titleBoss { 
   font-family: Raleway;
@@ -328,7 +326,7 @@ section.titleOne{
   width: 4.6rem;
   height: 0.14rem;
   position: absolute;
-  top: 10.2rem;
+  top: 156px;
   transform: translate(-64%);
   left: 50%;
       
@@ -346,7 +344,7 @@ section.titleOne{
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-bottom: 7.7rem;
+  
 
 }
 .tile_container{
@@ -374,15 +372,19 @@ section.titleOne{
 }
 
 .signature{
+  margin-left: 20px;
   margin-top: 1.1rem;  
   text-align: center;
   line-height: 1.4rem;
+  width: 350px
+  
 }
                                   /* section PRICE */
 .price{
   background-color: #F5F5F5;
-  padding: 5.7rem 7.9rem 4.1rem 7.9rem ;
-  height: 47.4rem;
+  
+  padding: 80px 100px 58px 100px;
+  height: 820px;
 }
  .price__titleBoss{
   font-family: Raleway;
@@ -414,6 +416,7 @@ p.price__title{
   margin: 0;
   position: relative;
   top: 4.4rem;
+  height: 550px;
 }
 .price__card__prices{
   height: 33.4rem;
@@ -422,68 +425,71 @@ p.price__title{
 }
 .price__card__title{  
   background-color: #333333;
-  width: 24.3rem;
-  height: 2.6rem;
-  margin-right: 0;
+  width: 340px;
+  height: 50px;
   border: 0.1rem solid #F5F5F5;
-  color: #ffffff;
-  padding-top: 1rem; 
+  padding: 0px; 
+  padding-top: 10px;  
   margin: 0;
+  font-weight: bold;
+  font-size: 20px;
 }
 .price__card__prices__namber{
   background-color: #333333;
-  width: 24.3rem;
-  height: 5.1rem;
-  margin: 0;
-  border: 0.1rem solid #F5F5F5;
-  color: #ffffff;
-  padding-top: 2rem; 
-  font-family: Raleway;
-  font-style: normal;
+  width: 340px;
+  height: 100px;  
+  border: 0.1rem solid #F5F5F5;  
+  padding-top: 24px; 
+  font-family: Raleway; 
   font-weight: bold;
   font-size: 2.5rem;
-  line-height: 2.9rem;
-  margin: 0;
+  line-height: 2.9rem;  
+  list-style-type: none;
+  
+  
 }
 .price__card__prices__text{
   background-color: #333333;
-  width: 24.3rem;
-  height: 2.6rem;
-  margin: 0;
-  border: 0.1r solid #F5F5F5;
-  color: #ffffff;
-  padding-top: 1rem; 
-  font-family: Open Sans;
-  font-style: normal;
+  width: 340px;
+  height: 50px;
+  border: 0.1rem solid #F5F5F5;
+  padding: 0px; 
+  padding-top: 12px;  
   font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.4rem;
-  margin: 0;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+  list-style-type: none;
 }
 .price__card__prices__input{
   background-color: #FFFFFF;
-  width: 24.3rem;
-  height: 1.9rem;
+  width: 340px;
+  height: 50px;
   margin: 0;
   border: 0.1rem solid #F5F5F5;
   color: #ffffff;
   padding: 1rem 0 0; 
   
 }
-input.price__card__prices__input__input{
-  border: 0.1rem solid white;
+.price__card__prices__input__input{
+  width: 340px;
+  height: 40px;
+  padding-top: 5px;
+  background-color: #fff;
+  border: 0.1rem solid #F5F5F5;
   text-align: center;
+  list-style-type: none;
 
 }
 div.center{
-  position: absolute;
-  top: -1rem;
-  left: 30rem;
+ position: absolute;
+ top: -15px;
+ left: 431px;
 }
 
                         /* --fedback-- */
 section.feedback{
-  padding: 5.7rem 10rem;
+  padding: 80px 110px 120px;
 }
 h2.feedback__titleBoss{
   text-align: center;
@@ -510,16 +516,21 @@ h2.feedback__titleBoss:after {
   justify-content: space-between;
 }
 .feedback__icones__card__text{
-  height: 6.4rem;
-  width: 21.2rem;
+  height: 110px;
+  width: 300px;
   background-color: #E2E2E2;
   border-radius: .5rem;
   padding: 0 1rem;
   text-align: center;
-  padding-top: 1.5rem;
+  padding-top: 1px;
 }
 .feedback__icones__card__manager{
   justify-content: space-around;
+  
+}
+p.manager{
+  margin: 0px;
+  margin-left: 28px;
 }
 
    
@@ -527,8 +538,10 @@ h2.feedback__titleBoss:after {
 .titleThree{
   position: relative;
   background-image: url(PICTERS/town.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   
-  height: 23.3rem;
+  height: 326px;
     
   padding: 0;   
  
@@ -542,8 +555,7 @@ h2.feedback__titleBoss:after {
 h2.titleBoss{
   position: absolute;
   left: 50%;
-  top: 4.1rem;
-  
+  top: 58px;  
   transform: translate(-50%);
 }
 h2.titleBoss:after {
@@ -551,14 +563,15 @@ h2.titleBoss:after {
   background-color:  #ffffff; 
   width: 4.6rem;
   height: .2rem;
-  margin-top: 6.3rem;
+  margin-top: 76px;
   margin-left: -17.35rem;      
   position: absolute;
 }
 .titleUp{
-  top: 12.6rem;
-  left: 25.4rem;
-
+  top: 170px;
+  width: 850px;
+  left: 50%;
+  transform: translate(-50%);
   font-style: normal;
   color: rgb(255, 255, 255, 0.8);
   font-size: 1.1rem;
@@ -569,8 +582,9 @@ h2.titleBoss:after {
 button.downloadButton{
   width: 9.6rem;
   height: 3rem;
-  top: 17.9rem;
-  left: 45.1rem;
+  top: 246px;
+  left: 50%;
+  transform: translate(-50%);
   border: .1rem solid #FFFFFF;
   border-radius: 0;
   background: rgba(0, 0, 0, 0);
@@ -580,9 +594,8 @@ button.downloadButton{
 .titleThree:after {
   content:   ''; 
   background-color:  rgba(0, 0, 0, 0.65);
-  width: 100rem;
- 
-  height: 23.3rem;
+  width: 1400px; 
+  height: 326px;
   top: 0rem;
   left: 0rem;      
   position: absolute;
@@ -591,40 +604,40 @@ button.downloadButton{
                           /* section CONTACT */
 
 section.contact{
-height: 50rem;
-position: relative;
-padding: 5.7rem 7.8rem 3.1rem;
+height: 710px;
+
+padding: 80px 110px 44px;
 }
 
 
 .contact__titleBoss{
-  position: absolute;
-  left: 50%;
-    
-  transform: translate(-50%);
+     
+  transform: translate(38%);
 }
 .contact__titleBoss:after {
   content:   ''; 
   background-color:  #E72424; 
   width: 4.6rem;
+  position: absolute;
   height: 0.14rem;
-  left: 50%;
+  left: 11%;
   top: 5.7rem;
   transform: translate(-50%);
-  position: absolute;
+  
 }
 .contact__text{
-  position: absolute;
-  left: 50%;
-  top: 13.7rem;  
-  transform: translate(-50%);
+  transform: translate(33%);
   margin: 0;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
-.contact__input{
-  justify-content: space-between;
+div.contact__input{
+  justify-content: space-between;  
+  
+  
 }
 .contact__input__form{
-  position: absolute;
+ 
   top: 18.3rem;
   height: 21rem;
   width: 34.2rem;
@@ -634,38 +647,37 @@ padding: 5.7rem 7.8rem 3.1rem;
   width: 34.2rem;
   height: 6.9rem;
   border: none;
-  border-bottom: .2rem solid #BDBDBD;  
+  border-bottom: 1px solid #BDBDBD;  
 
 }
-.contact__input__message{
-  
-  
-  border-bottom: .2rem solid #BDBDBD;  
-  position: absolute;
-  top: 19rem;
-  height: 21rem;
-  width: 34.2rem;
-  left: 57.9rem;
+.contact__input__messge{
+  margin-top: 37px;
 }
-input.contact__input__message__input{
-  border: none;
-  margin-top: 1.5rem;
-  }
-  input::placeholder{
-    color: #86878B;
-  }
+
+.message_textarea {
+      width: 478px;
+      height: 240px;
+      resize: none;
+      border: none;
+      border-bottom: 1px solid #BDBDBD;}
+  
+
   button.contact__button{   
     position: absolute; 
       width: 9.6rem;
       height: 3rem;
-      top: 50rem;
-      left: 45.1rem;
+      top: 630px;
+      left: 50%;
+  
+      transform: translate(-50%);
       background: #EC7979;
       border: .1rem solid #FFFFFF;
       box-sizing : border-box;
       font-size: 1.1rem;
       font-weight: 600;
      }
+
+     
   
  
 
@@ -678,28 +690,18 @@ footer{
   background-color: #000000;
   position: relative;
   height: 7.21rem;
-  top: auto;    
-  width: 100%;  
+  top: auto;      
   margin: 0 auto;
-  max-width: 100rem;
+ 
 }
 .futerPanel{
-  position: absolute;
-  width: 22.6rem;
-  height: 1.6rem;
-  left: 38.6rem;
-  top: 2.14rem;
+  position: absolute; 
+  left: 540px;
+  top: 30px;
 }
 
 .footerText{
   position: absolute;
-  font-style: normal;
-  color: rgb(255, 255, 255, 0.5);
-  font-size: .9rem;
-  line-height: 1.14rem;
-  text-align: center;
-  vertical-align: top;
-  margin-top: 5rem;
-  margin-left: 45.4rem;
-  
+  top: 71px;
+  left: 635px;  
 }
